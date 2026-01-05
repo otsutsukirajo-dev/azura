@@ -1,5 +1,4 @@
 # azura
-
 #EXERCICE GIT/INSI L1A / 2025-2026
 
 ##1
@@ -8,21 +7,21 @@ Prenom:Rajoniaina Safidy
 Numero de Matricule:301
 
 ##2
-Nom:
-Prenom:
-Numero de Matricule:
+Nom:ANDRIANARIVONY
+Prenom:MIRANIAINA KARINAH
+Numero de Matricule:299
 
 ##3
-Nom:
-Prenom:
-Numero de Matricule:
+Nom:RAMAMONJISOA 
+Prenom:Tefisoa Mirary
+Numero de Matricule:306
 
 ##4
-Nom:
-Prenom:
-Numero de Matricule:
+Nom:RANDRIAMIALY-JOHNNE
+Prenom:Koloina Jacquie
+Numero de Matricule:352
 
 ##5
-Nom:
-Prenom:
-Numero de Matricule:
+Nom:RASOAMIZANA 
+Prenom:Volarimanana Lalaina Faneva 
+Numero de Matricule:282
