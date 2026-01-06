@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Boutique de Mode</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.20.3/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.20.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.20.3/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-item uk-logo" href="#">ModeStyle</a>
+        <ul class="uk-navbar-nav">
+            <li><a href="femme.html">Femme</a></li>
+            <li><a href="homme.html">Homme</a></li>
+            <li><a href="enfant.html">Enfant</a></li>
+            <li><a href="accessoire.html">Accessoires</a></li>
+        </ul>
+    </div>
+    <div class="uk-navbar-right">
+        <a class="uk-navbar-toggle" uk-icon="icon: cart"></a>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="uk-section uk-section-primary uk-light uk-text-center">
+    <div class="uk-container">
+        <h1 class="uk-heading-medium">Bienvenue sur ModeStyle</h1>
+        <p class="uk-text-lead">La boutique en ligne pour toute la famille</p>
+        <a href="#collections" class="uk-button uk-button-default uk-button-large">Découvrir les collections</a>
+    </div>
+</section>
+
+<!-- COLLECTIONS -->
+<section id="collections" class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h2 class="uk-text-center">Nos Catégories</h2>
+
+        <div class="uk-grid-match uk-child-width-1-4@m uk-child-width-1-2@s" uk-grid>
+            <div id="femme">
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-media-top">
+                        <img src="images.jpg" alt="Mode Femme">
+                    </div>
+                    <div class="uk-card-body uk-text-center">
+                        <h3 class="uk-card-title">Femme</h3>
+                        <p>Tendances et élégance</p>
+                        <a class="uk-button uk-button-text" href="femme.html">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="homme">
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-media-top">
+                        <img src="images (1).jpg" alt="Mode Homme">
+                    </div>
+                    <div class="uk-card-body uk-text-center">
+                        <h3 class="uk-card-title">Homme</h3>
+                        <p>Style moderne et classique</p>
+                        <a class="uk-button uk-button-text" href="homme.html">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="enfant">
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-media-top">
+                        <img src="images (2).jpg" alt="Mode Enfant">
+                    </div>
+                    <div class="uk-card-body uk-text-center">
+                        <h3 class="uk-card-title">Enfant</h3>
+                        <p>Confort et couleurs</p>
+                        <a class="uk-button uk-button-text" href="enfant.html">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="accessoire">
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-media-top">
+                        <img src="10-accessoires-tendances-indispensables-en-2025_96e05c22-3f95-4a93-a442-7482e78b6e09.webp" alt="Accessoires">
+                    </div>
+                    <div class="uk-card-body uk-text-center">
+                        <h3 class="uk-card-title">Accessoires</h3>
+                        <p>Sacs, montres et plus</p>
+                        <a class="uk-button uk-button-text" href="accessoire.html">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="uk-section uk-section-secondary uk-light">
+    <div class="uk-container uk-text-center">
+        <p>© 2025 ModeStyle - Boutique de mode en ligne</p>
+    </div>
+</footer>
+
+</body>
+</html>
